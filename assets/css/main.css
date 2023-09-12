@@ -194,7 +194,7 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.5rem;
+			padding-bottom: 0.5rem; 
 			margin: 0 0 2rem 0;
 		}
 
@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1332,7 +1335,7 @@ input, select, textarea {
 				line-height: 2;
 			}
 
-		#header nav ul {
+		#header nav ul {  /*리스트 가로 정렬 */
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1344,7 +1347,7 @@ input, select, textarea {
 			border-radius: 4px;
 		}
 
-			#header nav ul li {
+			#header nav ul li {		/* about하고 story 사이 선 email하고 elements 사이 선 */
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
@@ -1404,8 +1407,8 @@ input, select, textarea {
 			-moz-filter: blur(0.125rem);
 			-webkit-filter: blur(0.125rem);
 			-ms-filter: blur(0.125rem);
-			filter: blur(0.125rem);
-		}
+			filter: blur(0.125rem); 
+		 }
 
 			body.is-preload #header > * {
 				opacity: 0;
@@ -1596,7 +1599,7 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
@@ -1610,19 +1613,19 @@ input, select, textarea {
 					background-size: 14px 14px;
 				}
 
-		}
+		} */
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
-		}
+		} */
 
 /* Footer */
 
-	#footer {
+	/* #footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -1631,17 +1634,17 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
-	}
+	} */
 
-		#footer .copyright {
+		/* #footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
-		}
+		} */
 
-		body.is-article-visible #footer {
+		/* body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
@@ -1651,8 +1654,8 @@ input, select, textarea {
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
 			opacity: 0;
-		}
+		} */
 
-		body.is-preload #footer {
+		/* body.is-preload #footer {
 			opacity: 0;
-		}
+		} */
